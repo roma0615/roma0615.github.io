@@ -1,0 +1,63 @@
+html, body {
+	min-height: 100%;
+}
+
+body {
+	font-family: Verdana;
+	color: white;
+	margin: 30px 0;
+	box-sizing: border-box;
+	background: #1A1A1A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+hr {
+	margin: 40px 0;
+}
+
+.item {
+	margin: 30px;
+	box-shadow: 0 0 15px 0 black;
+	transition: box-shadow 0.1s;
+	padding: 30px;
+
+	width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+	.item {
+		width: 55%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.item {
+		width: 40%;
+	}
+}
+
+.item img {
+	width: 100%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #AAA;
+}
+
+.item:hover {
+	box-shadow: 0 0 30px 0 black;
+}
+
+.caption {
+	margin-top: 10px;
+	font-style: italic;
+	text-align: center;
+}
